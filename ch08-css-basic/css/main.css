@@ -1,10 +1,10 @@
 h2{
     color:white;
-    background-color:rgb(0, 255, 221);
+    background-color:green;
     font-size: 20px;
 }
 h2{
-    color: rgb(0, 0, 177);
+    color: yellow;
 }
 #a{
     color: skyblue;
@@ -24,6 +24,6 @@ p.a.b{
     font-size: 70px;
 }
 
-div.box h2{
+div>box h2{
     background-color: gray;
 }
