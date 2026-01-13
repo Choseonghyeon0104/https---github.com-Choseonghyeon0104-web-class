@@ -113,11 +113,12 @@ main h2 em{
 }
 main .content{
     /* border: 1px solid red; */
-    width: 810px;
     box-sizing: border-box;
+    width: 810px;
     padding: 40px 90px 50px;
-    margin: 0 auto;
+    margin: 0 auto 200px;
     text-align: center;
+    background-color: #f4f4f4;
 }
 .content h3{
     font-size: 30px;
