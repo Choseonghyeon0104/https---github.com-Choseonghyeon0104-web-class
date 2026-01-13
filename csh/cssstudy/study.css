@@ -1,56 +1,56 @@
-html{
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
 }
-.full{
-    background-color: aqua;
+html{
+    font-size: 16px;
 }
-h1{
-    text-align: center;
-    color: blue;
+#wrap{
+    padding: 5px;
 }
-.blue-line{
-    color: blue;
+.banner{
+    height: 600px;
+    background: url(../img/image.png) no-repeat 50% 50% / 100% auto;
+    margin-bottom: 10px;
 }
-h2{
-    text-align: center;
-    color: green;
+.banner h1{
+    font-size: 30px;
+    color: white;
+    text-align: calc(0+100px);
 }
-.yellow-box{
-    margin: 30px;
-    width: auto;
-    background-color: bisque;
-    padding: 20px;
-}
-.well{
+.banner p{
     color: orange;
 }
-.yellow-box-2{
-    background-color: yellow;
-    margin: 20px;
-    padding: 20px;
+.main{
+    border: 1px solid black;
 }
-.blue-box{
-    background-color: skyblue;
-    margin: 20px;
-    padding: 20px; 
-}
-.a{
-    color: blue;
-    text-align: left;
-}
-.gray-box{
-    width: auto;
-    margin: 30px;
+.main .a{
+    background: black;
     color: white;
-    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+}
+.content1{
+    border-bottom: 1px solid black;
+}
+.content{
     text-align: center;
+}
+.main h2{
+    font-size: 30px;
+    color: red;
     padding: 20px 0;
 }
-.home{
-    color: white;
-    background-color: blue;
-    padding: 20px 40px;
-    width: 700px;
-    margin: 0 auto;
+.main span{
+    color: blue;
+}
+.main p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.content2{
+    border-bottom: 1px solid black;
+}
+address{
+    font-style: normal;
 }
