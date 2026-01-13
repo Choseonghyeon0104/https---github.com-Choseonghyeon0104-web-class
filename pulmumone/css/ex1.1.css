@@ -79,7 +79,7 @@ html{
 .banner{
     /* border: 1px solid red; */
     height: 250px;
-    background: url(../img/sub_vis01_02.jpg) no-repeat 50% 50% / cover;
+    background: url(../img/sub_vis01_02.jpg) no-repeat 50% 50% / cover;    
     margin-bottom: 50px;
 }
 main{
