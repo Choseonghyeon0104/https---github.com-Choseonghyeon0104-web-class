@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 16px;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+.main{
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 1440px;
+    margin: 75px auto;
+}
+section h1{
+    /* border: 1px solid red; */
+    font-family: 'Pretendard';
+    font-weight: 900;
+    font-size: 50px;
+    padding: 20px 0;
+}
+.main .a{
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.main .banner{
+    margin: 100px 0;
+    height: 441px;
+    background: url(../img/5d106bfeedc73ee72734dc3aeb348f9c8f2b4490.jpg) no-repeat 50% 50% / cover;
+}
+.main h2{
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px 0; 
+} 
+.main .p{
+    padding: 20px 0 0;
+    margin: 0 0 75px;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 20px;
+}
+.p p:nth-of-type(1){
+    margin-bottom: 10px;
+}
+.p p:nth-of-type(2){
+    margin-bottom: 10px;
+}

@@ -10,8 +10,10 @@ html{
 }
 .banner{
     height: 600px;
+    border: 1px solid black;
     background: url(../img/image.png) no-repeat 50% 50% / 100% auto;
     margin-bottom: 10px;
+    padding: 40px
 }
 .banner h1{
     font-size: 30px;
