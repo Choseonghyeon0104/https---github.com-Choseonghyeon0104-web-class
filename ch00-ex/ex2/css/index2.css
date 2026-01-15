@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: inherit;
+    font-weight: inherit;
+}
+html{
+    font-size: 20px;
+}
+.main-banner{
+    box-sizing: border-box;
+    height: 599px;
+    background: url(../img/7247350364b9abd890d544b50b85e6093c349f17.png) no-repeat 50% 50% / cover;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    padding: 13.5rem 0 0;
+    margin-bottom: 6rem;
+}
+h2.title{
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+h3.a{
+    font-family: 'Pretendard';
+    font-weight: 400;
+    padding: 1rem 0;
+    border-top: 1px solid black;
+    text-align: right;
+}
+.banner{
+    box-sizing: border-box;
+    width: 50rem;
+    height: 21.5rem;
+    background: url(../img/54883f34e33cf27f09830186e832392166a79062.jpg) 50% 50% / cover;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+p.b{
+    line-height: 1.4;
+
+}
+.main{
+    width: 80rem;
+    margin: 0 auto;
+}
