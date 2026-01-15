@@ -1,0 +1,52 @@
+html{
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner{
+    background: url(../img/7247350364b9abd890d544b50b85e6093c349f17.png) no-repeat 50% 50% / cover;
+    height: 599px;
+    padding-top: 13.5rem;
+    box-sizing: border-box;
+    margin-bottom: 6rem;
+}
+.a{
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+}
+.banner h1{
+    line-height: 1;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.content{
+    width: 1600px;
+    margin: 0 auto;
+}
+h2.a{
+    line-height: 0.9;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+p{
+    line-height: 1.4;
+    padding: 1rem 0;
+    text-align: right;
+    text-transform: uppercase;
+    border-top: 1px solid black;
+}
+figure img{
+    width: 1000px;
+    height: 430px;
+    padding-top: 3rem;
+    object-fit: cover;
+    padding-bottom: 1rem;
+}
+figcaption{
+    line-height: 1.4;
+}
+b{
+    font-weight: 800;
+    
+}
