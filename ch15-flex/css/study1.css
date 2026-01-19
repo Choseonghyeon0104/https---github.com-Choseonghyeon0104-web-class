@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 10px solid red;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-around; */
+    /* align-items: flex-end; */
+
+
+    /* 부모를 flex-container 라고 말함 */
+    /* display: flex 속성을 줬을 때 부턴 x:메인축 , y:교차축이라는 개념이 형성된다.
+    따라오는 item들은 무조건 메인축을 따라 온다. */
+}
+.box section{
+    border: 1px solid blue;
+    /* 자식을 flex-item 라고 말함 */
+}
