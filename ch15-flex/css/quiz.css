@@ -105,8 +105,135 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .box7 div{
+    width: 100px;
+    height: 100px;
+}
+
+.box8{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box8 div{
+    width: 100px;
+    height: 100px;
+}
+.box8 section{
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+}
+
+.box8 section:nth-of-type(2){
+    flex-direction: row-reverse;
+}
+
+.box9{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.box9-1{
+    width: 500px;
+    display: flex;
+}
+.box9-1 div{
+    flex-grow: 1;
+}
+.box9-2{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.box9-2 div{
+    flex-grow: 1;
+}
+
+.box10{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.box10-1{
+    width: 250px;
+}
+.box10-2{
+    width: 300px;
+}
+.box10-3{
+    width: 250px;
+}
+.box10-1 div{
+    height: 300px;
+}
+.box10-3 div{
+    height: 300px;
+}
+.box10-2-2{
+    display: flex;
+}
+.box10-2-1 div{
+    height: 100px;
+}
+.box10-2-2 div{
+    flex: 1;
+    height: 200px;
+}
+
+.box11{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.box11 section{
+    width: 200px;
+}
+.box11-1 div{
+    height: 100px;
+}
+.box11-2{
+    display: flex;
+}
+.box11-2 div{
+    width: 100px;
+    height: 100px;
+}
+.box11-3 div{
+    height: 300px;
+}
+
+
+.box12{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.box12 .e{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box12 section div{
     width: 100px;
     height: 100px;
 }
