@@ -2,12 +2,15 @@
     font-family: "Aboreto", system-ui;
     font-weight: 400;
 }
-html{font-size: 20px;}
+html{
+    font-size: 20px;
+    font-family: 'Pretendard', sans-serif;
+}
 body{
     background: url(../img/BACKGROUND.png) no-repeat 50% 721px;
 }
 .main-banner{
-    background: url(../img/2f5776a56279032634c92c64486e3b01725d8f5f.png) no-repeat 50% 80% / 100% auto;
+    background: url(../img/bannerbg.png) no-repeat 50% 80% / 100% auto;
     height: 599px;
     /* border-radius: 150px; */
     border-bottom-left-radius: 150px;
