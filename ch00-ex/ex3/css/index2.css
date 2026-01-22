@@ -1,0 +1,81 @@
+html{
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-weight: 400;
+}
+.aboreto{
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+}
+.wrap{
+    background: url(../img/BACKGROUND.png) repeat-x 50% 20%;
+}
+.banner{
+    background: url(../img/bannerbg.png) no-repeat 50% 50% / cover;
+    display: flex;
+    height: 599px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 150px 150px;
+}
+.banner h1{
+    font-size: 2.5rem;
+    line-height: 1;
+}
+.content{
+    width: 1600px;
+    margin: 0 auto;
+}
+.content h2{
+    padding-top: 10rem;
+    font-size: 7.5rem;
+    line-height: 0.9;
+    text-align: center;
+    background: url(../img/Vector\ 1.svg) no-repeat 50% 720px;
+    margin-bottom: 2rem;
+}
+.content h2+p{
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 5rem;
+}
+span:nth-of-type(1){
+    color:#770000;
+}
+
+.banner-main{
+    width: 1600px;
+    display: flex;
+    gap: 20px;
+
+}
+.banner-main figure{
+    line-height: 0;
+    flex: 1;
+    aspect-ratio: 790/434;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+}   
+.content h3{
+    font-size: 2rem;
+    line-height: 1.4;
+}
+h3>span{
+    color: #770000;
+    margin-bottom: 1rem;
+}
+h3+p{
+    line-height: 1.4;
+}
+b{
+    font-style: inherit;
+    font-weight: 700;
+}
+h3+p+p{
+    line-height: 1.4;
+}
