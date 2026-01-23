@@ -1,0 +1,45 @@
+html{
+    font-size: 20px;
+    font-family: 'Pratendard';
+    font-weight: 400;
+}
+.abo{
+    font-family: 'abo';
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 160px;
+}
+.wrap ul{
+    aspect-ratio: 1;
+    max-width: 866px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+ul li{
+    padding: 0  1rem;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner{
+    height: 700px;
+    background: url(../img/a3617562ae2b735376bdc4f6021710d549df4d79.jpg) no-repeat 50% 50% /cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    color: #fff;
+    font-size: 7.5rem;
+    line-height: 1;
+}
