@@ -13,3 +13,15 @@ a{
 ul,ol{
     list-style: none;
 }
+img{
+    max-width: 100%;
+}
+table{
+    border-collapse: collapse;
+}
+strong,b{
+    font-style: inherit;
+}
+em,i{
+    font-style: inherit;
+}
