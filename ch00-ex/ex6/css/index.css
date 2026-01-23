@@ -13,24 +13,24 @@ html{
     height: 100px;
     padding: 0 160px;
 }
-.wrap ul{
-    aspect-ratio: 1;
-    max-width: 866px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.menu figure{
+    line-height: 0;
+}
+ul{
     /* border: 1px solid red; */
+    display: flex;
+    width: 866px;
 }
 ul li{
-    padding: 0  1rem;
-    flex: 1;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1;
-    text-transform: uppercase;
+    border: 1px solid blue;
+    flex:1;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
 }
+
+
+
 .banner{
     height: 700px;
     background: url(../img/a3617562ae2b735376bdc4f6021710d549df4d79.jpg) no-repeat 50% 50% /cover;
