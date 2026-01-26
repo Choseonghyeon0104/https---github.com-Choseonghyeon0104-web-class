@@ -1,0 +1,88 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+.pf{
+    font-family: 'aboreto',serif;
+}
+.main{
+    background: url(../img/bebbaa7230b9952d6a79aecd750de8d322879c12.jpg) no-repeat 50% 50% / cover;
+    height: 963px;
+    margin-bottom: 6rem;
+}
+.menu-bar{
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    /* border: 1px solid red; */
+    width: 966px;
+    height: 100px;
+}
+.menu-1 ul{
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+.menu-1 ul li{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5.5px 0;
+    font-weight: 400;
+}
+.menu-2 ul{
+    height: 70px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-2 ul li{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 193px;
+}
+.main h1{
+    width: 1600px;
+    font-size: 7rem;
+    line-height: 0.9;
+    color: #fff;
+}
+h2.pf{
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+h2.pf+p{
+    font-size: 1rem;
+    line-height: 1;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.space{
+    width: 1600px;
+    height: 441px;
+    margin: 4rem 8rem 155px;
+}

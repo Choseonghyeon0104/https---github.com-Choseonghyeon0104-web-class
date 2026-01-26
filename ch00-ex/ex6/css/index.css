@@ -19,14 +19,15 @@ html{
 ul{
     /* border: 1px solid red; */
     display: flex;
-    width: 866px;
 }
 ul li{
-    border: 1px solid blue;
-    flex:1;
+    /* border: 1px solid blue; */
+}
+ul p{
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
+    padding: 0 20px;
 }
 
 

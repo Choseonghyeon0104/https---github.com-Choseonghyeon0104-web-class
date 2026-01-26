@@ -1,0 +1,44 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+}
+.abo{
+    font-family: 'aboreto';
+}
+.menu{
+    width: 1600px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu figure{
+    line-height: 0;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.main{
+    height: 700px;
+    background: url(../img/1.jpg) no-repeat 50% 50% / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    font-size: 7.5rem;
+    color: #fff;
+    line-height: 1;
+}
