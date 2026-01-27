@@ -3,7 +3,9 @@ html{
     font-family: 'Pretendard',sans-serif;
     font-weight: 400;
 }
-header{}
+header{
+    border-bottom: 2px solid red;
+}
 .common-frame{
     /* border: 1px solid red; */
     width: 1600px;
