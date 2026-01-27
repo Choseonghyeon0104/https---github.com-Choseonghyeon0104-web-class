@@ -1,0 +1,42 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+.spt{
+    font-family: 'aboreto',serif;
+}
+.menu{
+    width: 1600px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+}
+ul li a{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+}
+header{
+    border-bottom: 2px solid #BE0707;
+}
+.banner{
+    height: 700px;
+    background: url(../img/1.jpg) no-repeat 50% 50% /cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size: 7.5rem;
+    line-height: 1;
+    color: #fff;
+}
