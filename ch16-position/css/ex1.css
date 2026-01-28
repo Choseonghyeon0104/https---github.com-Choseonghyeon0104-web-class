@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sec{
+    width: 800px;
+    height: 300px;
+    margin: 500px auto;
+    background-color: gray;
+}
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.c{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.d{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+.e{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.ex1{
+    position: relative;
+}
+.ex1 .a{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.ex1 .b{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.ex1 .c{
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    /* transform: translate(-50%, -50%); */
+}
+.ex1 .d{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.ex1 .e{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.ex2{
+    position: relative;
+}
+.ex2 div{
+    position: absolute;
+}
+.ex2 .a{
+    left: -100px;
+    top: -100px;
+}
+.ex2 .b{
+    left: -100px;
+    bottom: -100px;
+}
+.ex2 .c{
+    left: calc(50% - 50px);
+    bottom: -100px;
+}
+.ex2 .d{
+    right: -100px;
+    top: -100px;
+}
+.ex2 .e{
+    right: -100px;
+    bottom: -100px;
+}
+
+
+.ex3{position: relative;}
+.ex3 div{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+}
+.ex3 .a{
+    top: -100%;
+    left: 0%;
+}
+.ex3 .b{
+    left: 20%;
+    bottom: -100%;
+}
+.ex3 .c{
+    top: -100%;
+    /* left: calc(50% - 80px); */
+    left: 40%;
+}
+.ex3 .d{
+    bottom: -100%;
+    left: 60%;
+}
+.ex3 .e{
+    top: -100%;
+    left: 80%;
+}
+
+.ex4.sec{position: relative;}
+.ex4 .a{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0px;
+    top: -150px;
+}
+.ex4 .c{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.ex4 .b{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.ex4 .d{
+    position: absolute;
+    right: 0px;
+    bottom: -150px;
+    width: 300px;
+    height: 300px;
+}
+.ex4 .e{
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}

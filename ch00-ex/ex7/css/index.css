@@ -10,6 +10,7 @@ html{
     background: url(../img/bebbaa7230b9952d6a79aecd750de8d322879c12.jpg) no-repeat 50% 50% / cover;
     height: 963px;
     margin-bottom: 6rem;
+    /* position: relative; */
 }
 .menu-bar{
     border: 1px solid red;
@@ -18,6 +19,8 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 .menu{
     /* border: 1px solid red; */
