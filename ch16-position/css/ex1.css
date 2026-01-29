@@ -150,3 +150,63 @@
     left: calc(50% - 50px);
     top: calc(50% - 50px);
 }
+
+.ex5.sec{
+    position: relative;
+}
+.ex5 div{
+    position: absolute;
+}
+.ex5 .a{
+    top: -100px;
+    left: -100px;
+    z-index: 5;
+}
+.ex5 .b{
+    top: -50px;
+    left: -50px;
+}
+.ex5 .c{
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+.ex5 .d{
+    top: 50px;
+    left: 50px;
+}
+.ex5 .e{
+    top: 100px;
+    left: 100px;
+}
+
+.ex6.sec{
+    display: flex;
+}
+.ex6 .a, .ex6 .b{
+    position: relative;
+    flex:1;
+    height: auto;
+}
+.ex6 .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ex6 .c, .ex6 .d, .ex6 .e{
+    position: absolute;
+}
+.ex6 .c{
+    top: 0px;
+    right: 0px;
+}
+.ex6 .d{
+    height: 50px;
+    left: 0px;
+    bottom: 0px;
+}
+.ex6 .e{
+    height: 50px;
+    right: 0px;
+    bottom: 0px;
+}
