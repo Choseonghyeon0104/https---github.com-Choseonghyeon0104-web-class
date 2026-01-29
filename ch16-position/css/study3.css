@@ -1,0 +1,183 @@
+.box{
+    width: 800px;
+    height: 300px;
+    background-color: gray;
+    margin: 0 auto 500px;
+}
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.c{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.d{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+.e{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.ex1{
+    position: relative;
+}
+.ex1 div{
+    position: absolute;
+}
+.ex1 .a{
+    left: 0;
+    top: 0;
+}
+.ex1 .b{
+    bottom: 0;
+    left: 0;
+}
+.ex1 .c{
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}
+.ex1 .d{
+    top: 0;
+    right: 0;
+}
+.ex1 .e{
+    right: 0;
+    bottom: 0;
+}
+
+.ex2{
+    position: relative;
+}
+.ex2 div{
+    position: absolute;
+}
+.ex2 .a{
+    top: -100px;
+    left: -100px;
+}
+.ex2 .b{
+    bottom: -100px;
+    left: -100px;
+}
+.ex2 .c{
+    left: calc(50% - 50px);
+    bottom: -100px;
+}
+.ex2 .d{
+    right: -100px;
+    top: -100px;
+}
+.ex2 .e{
+    right: -100px;
+    bottom: -100px;
+}
+
+.ex3{
+    position: relative;
+}
+.ex3 div{
+    height: 300px;
+    width: 160px;
+    position: absolute;
+}
+.ex3 .a{
+    top: -100%;
+    left: 0;
+}
+.ex3 .b{
+    left: 20%;
+    bottom: -100%;
+}
+.ex3 .c{
+    left: 40%;
+    top: -100%;
+}
+.ex3 .d{
+    left: 60%;
+    bottom: -100%;
+}
+.ex3 .e{
+    left: 80%;
+    top: -100%;
+}
+
+.ex4{
+    position: relative;
+}
+.ex4 div{
+    position: absolute;
+}
+.ex4 .a{
+    width: 300px;
+    height: 300px;
+    top: -150px;
+    left: 0;
+}
+.ex4 .b{
+    right: 0;
+    bottom: 0;
+}
+.ex4 .c{
+    top: 0;
+    right: 0;
+}
+.ex4 .d{
+    width: 300px;
+    height: 300px;
+    bottom: -150px;
+    right: 0;
+}
+.ex4 .e{
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}
+
+.ex5{
+    display: flex;
+}
+.ex5 div{
+    width: 100%;
+    height: 100%;
+}
+.ex5 .a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ex5 .c{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ex5 .b{
+    position: relative;
+}
+.ex5 .d{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    left: 0;
+    bottom: 0;
+}
+.ex5 .e{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 80px;
+}

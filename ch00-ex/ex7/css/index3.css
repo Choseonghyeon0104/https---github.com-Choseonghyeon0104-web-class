@@ -1,0 +1,91 @@
+html{
+    font-family: 'Pretendard',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.spt{
+    font-family: 'aboreto',serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #BE0707;
+    width: 100%;
+}
+.common-frame{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav .menu-1{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+}
+.nav .menu-2{
+    display: flex;
+}
+.menu-2>li{
+    width: 138px;
+    height: 70px;
+}
+.menu-2>li>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+}
+.banner{
+    background: url(../img/1.jpg) no-repeat 50% 50% / cover;
+    width: 100vw;
+    height: 100vh;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.banner h1{
+    line-height: 0.9;
+    font-size: 140px;
+    color: #fff;
+    width: 1600px;
+}
+.common-frame-2{
+    width: 1600px;
+    margin: 0 auto;
+}
+.common-frame-2 h2{
+    font-size: 60px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.common-frame-2 p{
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+.common-frame-2 img{
+    object-fit: cover;
+    width: 1600px;
+    height: 441px;
+    margin-bottom: 155px;
+}
