@@ -1,0 +1,105 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+.spt{
+    font-family: 'aboreto',sans-serif;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #BE0707;
+}
+.common-frame{
+    width: 1600px;
+    margin: 0 auto;
+}
+header>.common-frame{
+    display: flex;
+    justify-content: space-between;
+}
+.common-frame>nav{
+    height: 100px;
+}
+.nav .lnb{
+    height: 30px;
+}
+.nav .lnb ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+.nav .lnb ul a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.nav .gnb{
+    height: 70px;
+}
+.gnb ul{
+    display: flex;
+}
+.gnb ul li{
+    width: 137px;
+    height: 70px;
+}
+.gnb ul a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner{
+    background: url(../img/1.jpg) no-repeat 50% 50% / cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.banner h1{
+    font-size: 7rem;
+    line-height: 0.9;
+    color: #fff;
+    width: 1600px;
+    margin:0 auto;
+}
+.container h2{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+.container P{
+    text-align: center;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.container img{
+    width: 1600px;
+    height: 441px;
+    object-fit: cover;
+    margin-bottom: 8rem;
+}

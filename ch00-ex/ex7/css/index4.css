@@ -1,0 +1,103 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+.spt{
+    font-family: 'aboreto',sans-serif;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #BE0707;
+}
+.common-frame{
+    width: 1600px;
+    margin: 0 auto;
+}
+header>.common-frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    color: #fff;
+    text-transform: uppercase;
+    height: 100px;
+}
+.lnb{
+    height: 30px;
+}
+.lnb ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1;
+    gap: 1rem ;
+}
+
+.gnb{
+    height: 70px;
+}
+.gnb ul{
+    display: flex;
+}
+.gnb ul li{
+    width: 138px;
+    height: 70px;
+}
+.gnb ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.banner{
+    background: url(../img/1.jpg) no-repeat 50% 50% / cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.banner h1{
+    width: 1600px;
+    font-size: 7rem;
+    line-height: 0.9;
+    text-transform: uppercase;
+    color: #fff;
+}
+.common-frame h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.common-frame p{
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.container img{ 
+    width: 1600px;
+    height: 441px;
+    object-fit: cover;
+}
+.container{
+    margin-bottom: 155px;
+}
