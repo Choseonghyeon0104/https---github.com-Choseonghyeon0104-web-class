@@ -18,6 +18,9 @@ header{
     width: 1600px;
     margin: 0 auto;
 }
+.common-frame a{
+    line-height: 0;
+}
 header>.common-frame{
     display: flex;
     justify-content: space-between;
